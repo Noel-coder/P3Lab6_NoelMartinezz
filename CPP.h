@@ -7,13 +7,13 @@ using namespace std;
 class CPP : public Archivo
 {
 	public:
-		CPP(int,int,string);
+		CPP(int,int,string,string,FileSystemNode*);
 		~CPP();
 		CPP();
+		string toString();
 	private:
 		int lineasCodigo;
 		int numErrores;
-		string toString;
 };
 
 #endif
