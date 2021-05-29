@@ -11,6 +11,10 @@ class CPP : public Archivo
 		~CPP();
 		CPP();
 		string toString();
+		int getlineasCodigo();
+		void setlineasCodigo(int);
+		int getnumErrores();
+		void setnumErrores(int);
 	private:
 		int lineasCodigo;
 		int numErrores;

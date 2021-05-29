@@ -14,3 +14,19 @@ CPP::CPP(int _lineasCodigo, int _numErrores, string _nombre, string _autor, File
 string CPP::toString() {
 	return NULL;
 }
+
+int CPP::getlineasCodigo(){
+	return this->lineasCodigo;
+}
+
+void CPP::setlineasCodigo(int _lineasCodigo){
+	this->lineasCodigo = _lineasCodigo;
+}
+
+int CPP::getnumErrores(){
+	return this->numErrores;
+}
+
+void CPP::setnumErrores(int _numErrores){
+	this->numErrores = _numErrores;
+}

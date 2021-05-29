@@ -12,6 +12,14 @@ class JPG : public Archivo
 		~JPG();
 		JPG();
 		string toString();
+		bool getconFlash();
+		void setconFlash(bool);
+		string getResolucion();
+		void setResolucion(string);
+		double getLargo();
+		void setLargo(double);
+		double getAncho();
+		void setAncho(double);
 	private:
 		bool conFlash;
 		string resolucion; 

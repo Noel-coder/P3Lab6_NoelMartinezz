@@ -2,9 +2,10 @@
 
 FileSystem::FileSystem()
 {
+	this->root = new Directorio("Raiz", "Noel",NULL);
 }
 
-FileSystem::~FileSystem()
-{
+Directorio* FileSystem::getRoot(){
+	return this->root;
 }
 

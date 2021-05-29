@@ -11,6 +11,14 @@ class PPT : public Archivo
 		~PPT();
 		PPT();
 		string toString();
+		string getTitulo();
+		void setTitulo(string);
+		int getnumSlides();
+		void setnumSlides(int);
+		int getnumPlantilla();
+		void setnumPlantilla(int);
+		bool getTieneAnimaciones();
+		void setTieneAnimaciones(bool);
 	private:
 		string titulo;
 		int numSlides;
