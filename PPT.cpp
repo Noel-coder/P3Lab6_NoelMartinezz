@@ -16,7 +16,7 @@ PPT::PPT(string _titulo, int _numSlides, int _numPlantilla, bool _tieneAnimacion
 }
 
 string PPT::toString(){
-	return NULL;
+	return titulo;
 }
 
 string PPT::getTitulo(){

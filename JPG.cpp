@@ -14,7 +14,7 @@ JPG::JPG(bool _conFlash, string _resolucion, double _largo, double _ancho, strin
 }
 
 string JPG::toString() {
-	return NULL;
+	return nombre;
 }
 
 bool JPG::getconFlash(){

@@ -10,6 +10,8 @@ class FileSystemNode
 		~FileSystemNode();
 		FileSystemNode();
 		virtual string toString()=0;
+		string getNombre();
+		string getAutor();
 	protected:
 		string nombre;
 		string autor;

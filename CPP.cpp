@@ -12,7 +12,7 @@ CPP::CPP(int _lineasCodigo, int _numErrores, string _nombre, string _autor, File
 }
 
 string CPP::toString() {
-	return NULL;
+	return nombre;
 }
 
 int CPP::getlineasCodigo(){
